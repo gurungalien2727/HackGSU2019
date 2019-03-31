@@ -61,13 +61,13 @@ public class ProfileActivity extends AppCompatActivity {
                     String toBePassed="";
                     switch(position){
                         case 0:
-                            toBePassed="Animal";
+                            toBePassed="Animals";
                             break;
                         case 1:
-                            toBePassed="Coffe";
+                            toBePassed="Plants";
                             break;
                         case 2:
-                            toBePassed="Science";
+                            toBePassed="Medical";
                             break;
 
                     }

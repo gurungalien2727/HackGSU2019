@@ -49,8 +49,8 @@ public class VisionActivity  extends AppCompatActivity {
             if (isInserted) {
 
                 Toast.makeText(getApplicationContext(), "Registration Successful", Toast.LENGTH_SHORT).show();
-                Intent gotoMain=new Intent(RegisterActivity.this,MainActivity.class);
-                startActivity(gotoMain);
+//                Intent gotoMain=new Intent(RegisterActivity.this,MainActivity.class);
+//                startActivity(gotoMain);
 
             } else {
 

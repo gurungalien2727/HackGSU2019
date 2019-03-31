@@ -84,7 +84,8 @@ public class HomeActivity  extends AppCompatActivity {
         findViewById(R.id.green_button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                drawingPad.setPenColor(Color.RED);
+
+                //drawingPad.setPenColor(Color.RED);
             }
         });
         findViewById(R.id.reject).setOnClickListener(new View.OnClickListener() {
