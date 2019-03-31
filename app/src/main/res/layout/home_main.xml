@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <com.lorentzos.flingswipe.SwipeFlingAdapterView
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:background="#0066cc"
+        app:rotation_degrees="15.5"
+        tools:context=".MyActivity" />
+
+    <ImageButton
+        android:id="@+id/reject"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="303dp"
+        android:layout_marginBottom="17dp"
+        android:background="@drawable/cancel" />
+
+    <ImageButton
+        android:id="@+id/accept"
+        android:layout_width="72dp"
+        android:layout_height="69dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/right" />
+
+    <ImageButton
+        android:id="@+id/green_button"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/greenpen" />
+
+</RelativeLayout>
+
